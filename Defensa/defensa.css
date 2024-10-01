@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif   
+}
+
+/* Head */
+.head {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 35px;
+	color: aliceblue;
+	display: flex;
+    align-items: center;
+    background-color: #1C1823;
+    padding: 10px;
+    
+}
+.head img {
+width: 75px;
+height: 75px;
+margin-right: 20px;
+transition: transoform 0.3s ease;
+} 
+.menu {
+	position: relative;
+    background-color: aquamarine;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;	
+	gap: 10px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+.menu, Mensaje{
+    font-family: fantasy;
+    font-size: 50px;
+	text-align: center;
+}
+.slider {
+	position: relative;
+    width: 100%;
+    max-height: 300px;
+    max-width: 100%;
+    background-color: orange;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;	
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.slider img {
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+/* Galeria */
+.imagTbl {
+    align-content: flex-start;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	gap: 15px;
+	width: 100%;
+	height: 100%;
+    margin-bottom: 10px;
+}
+.TablaA {
+	grid-area: 1 / 1 / 5 / 3;
+	background-color:greenyellow;
+}
+.Titulo {
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+	grid-area: 1 / 3 / 2 / 5;
+	background-color:dodgerblue;
+}
+.Imagen1 {
+	grid-area: 2 / 3 / 3 / 5;
+	background-color:greenyellow;
+}
+.Imagen2     {
+	grid-area: 3 / 3 / 3 / 5;
+	background-color:lightgreen;
+}
+.TablaFr {
+    text-align: center;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	gap: 10px;  
+	width: 100%;
+	height: 100%;
+}
+.TablaB {
+    grid-area: 1 / 1 / 5 / 3;
+	background-color:grey;
+}
+.mapa {
+    grid-area: 2 / 3 / 3 / 5 ;
+    background-color: deeppink;
+}
+.formulario {
+    grid-area: 3 / 3 / 3 /5 ;
+    background-color: pink;
+}
+/*Footer*/
+.Footer {
+	display: grid;
+	grid-template-rows: repeat(auto);
+	grid-template-columns: auto;
+	gap: 10px;
+	width: 100%;
+	height: 100%;
+}
+.Footerinf {
+	grid-area: 2 / 1 / 2 / 1;
+	background-color: orange;
+}
+.Logo {
+	grid-area: 2/2/3/2;
+	background-color: orange;
+}
+.Footerinf2 {
+	grid-area: 3 / 2 / 3 / 1;
+	background-color: orange;
+}
+.Logo2 {
+	grid-area: 3/2/3/2;
+	background-color: orange;
+}
